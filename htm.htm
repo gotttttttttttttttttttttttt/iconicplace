@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Wanderlust Catalog | Iconic Destinations</title>
+  <link rel="stylesheet" href="css.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <div class="catalog-container">
+    <div class="catalog-header">
+      <h1>✦ ICONIC ESCAPES ✦</h1>
+      <div class="subhead">
+        International Tourist Spots — remarkable destinations around the world that attract travelers with their unique mix of culture, history, nature, and entertainment.
+      </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="catalog-nav">
+      <div class="nav-links">
+        <a href="#" class="nav-link active" data-nav="all">
+          <i class="fas fa-globe"></i> All Destinations
+        </a>
+        <a href="#" class="nav-link" data-nav="europe">
+          <i class="fas fa-landmark"></i> Europe
+        </a>
+        <a href="#" class="nav-link" data-nav="america">
+          <i class="fas fa-flag-usa"></i> Americas
+        </a>
+        <a href="#" class="nav-link" data-nav="asia">
+          <i class="fas fa-pagoda"></i> Asia
+        </a>
+        <a href="#" class="nav-link" data-nav="africa">
+          <i class="fas fa-tree"></i> Africa
+        </a>
+      </div>
+      <div class="nav-search">
+        <i class="fas fa-search"></i>
+        <input type="text" id="searchInput" placeholder="Search destinations...">
+      </div>
+    </nav>
+
+    <div class="catalog-grid" id="destinationsGrid">
+      <!-- Destinations will be populated by JavaScript -->
+    </div>
+
+    <div class="catalog-footer">
+      <span>© WANDERLUST CATALOG — timeless landmarks, modern inspiration</span>
+    </div>
+  </div>
+
+  <div id="toastMsg" class="toast-notify">✨ added to wishlist</div>
+
+  <script src="js.js"></script>
+</body>
+</html>
